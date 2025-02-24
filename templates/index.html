@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Сканер</title>
+</head>
+<body>
+    <h1>Загрузите изображение с QR-кодом</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Загрузить</button>
+    </form>
+
+    {% if qr_content %}
+        <h2>Распознанный текст:</h2>
+        <p>{{ qr_content }}</p>
+        <img src="{{ img_path }}" alt="QR Image" width="300">
+    {% elif qr_content is not none %}
+        <p>QR код не был распознан или файл поврежден.</p>
+    {% else %}
+        <p>Загрузите изображение для сканирования.</p>
+    {% endif %}
+</body>
+</html>
