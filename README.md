@@ -25,7 +25,7 @@ Before running the application, make sure you have the following dependencies in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/taycakitayka/qr-scanner.git
+   git clone https://github.com/taycakitayka/qr-scanner-tph.git
 
 
 Rus:
@@ -54,4 +54,4 @@ Rus:
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/taycakitayka/qr-scanner.git
+git clone https://github.com/taycakitayka/qr-scanner-tph.git
