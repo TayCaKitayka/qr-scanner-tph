@@ -56,6 +56,6 @@ Before running the application, make sure you have the following dependencies in
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/taycakitayka/qr-scanner-tph.git
-
+```
 # ENG:
 # For C#
