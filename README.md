@@ -1,5 +1,5 @@
-Eng:
-
+# ENG:
+# For Python
 # QR Code Scanner Web Application
 
 This is a simple web application built using Flask that allows users to upload images containing QR codes. The application will read and display the content encoded in the QR code.
@@ -28,7 +28,8 @@ Before running the application, make sure you have the following dependencies in
    git clone https://github.com/taycakitayka/qr-scanner-tph.git
 
 
-Rus:
+# RUS:
+# Для Python
 # Веб-приложение сканера QR-кодов
 
 Это простое веб-приложение, созданное с использованием Flask, которое позволяет пользователям загружать изображения, содержащие QR-коды. Приложение будет считывать и отображать содержимое, закодированное в QR-коде.
@@ -55,3 +56,6 @@ Rus:
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/taycakitayka/qr-scanner-tph.git
+
+# ENG:
+# For C#
